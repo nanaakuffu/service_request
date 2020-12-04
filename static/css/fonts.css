@@ -1,0 +1,169 @@
+/* Getting some google static/my_fonts */
+@font-face {
+  font-family: "Roboto";
+  src: local(Roboto Thin), url("./../font/roboto/Roboto-Thin.eot");
+  src: url("./../font/roboto/Roboto-Thin.eot?#iefix") format("embedded-opentype"),
+       url("./../font/roboto/Roboto-Thin.woff2") format("woff2"),
+       url("./../font/roboto/Roboto-Thin.woff") format("woff"),
+       url("./../font/roboto/Roboto-Thin.ttf") format("truetype");
+  font-weight: 200; }
+
+@font-face {
+  font-family: "Roboto";
+  src: local(Roboto Light), url("./../font/roboto/Roboto-Light.eot");
+  src: url("./../font/roboto/Roboto-Light.eot?#iefix") format("embedded-opentype"),
+      url("./../font/roboto/Roboto-Light.woff2") format("woff2"),
+      url("./../font/roboto/Roboto-Light.woff") format("woff"),
+      url("./../font/roboto/Roboto-Light.ttf") format("truetype");
+  font-weight: 300; }
+
+@font-face {
+  font-family: "Roboto";
+  src: local(Roboto Regular), url("./../font/roboto/Roboto-Regular.eot");
+  src: url("./../font/roboto/Roboto-Regular.eot?#iefix") format("embedded-opentype"),
+      url("./../font/roboto/Roboto-Regular.woff2") format("woff2"),
+      url("./../font/roboto/Roboto-Regular.woff") format("woff"),
+      url("./../font/roboto/Roboto-Regular.ttf") format("truetype");
+  font-weight: 400; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./../font/roboto/Roboto-Medium.eot");
+  src: url("./../font/roboto/Roboto-Medium.eot?#iefix") format("embedded-opentype"),
+      url("./../font/roboto/Roboto-Medium.woff2") format("woff2"),
+      url("./../font/roboto/Roboto-Medium.woff") format("woff"),
+      url("./../font/roboto/Roboto-Medium.ttf") format("truetype");
+  font-weight: 500; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./../font/roboto/Roboto-Bold.eot");
+  src: url("./../font/roboto/Roboto-Bold.eot?#iefix") format("embedded-opentype"),
+      url("./../font/roboto/Roboto-Bold.woff2") format("woff2"),
+      url("./../font/roboto/Roboto-Bold.woff") format("woff"),
+      url("./../font/roboto/Roboto-Bold.ttf") format("truetype");
+  font-weight: 600; }
+
+/* ===================================================================================================== */
+
+@font-face {
+  font-family: "GoogleSans";
+  src: local(GoogleSans Regular), url("./../font/googlesans/GoogleSans-Regular.eot");
+  src: url("./../font/googlesans/GoogleSans-Regular.eot?#iefix") format("embedded-opentype"),
+       url("./../font/googlesans/GoogleSans-Regular.woff2") format("woff2"),
+       url("./../font/googlesans/GoogleSans-Regular.woff") format("woff"),
+       url("./../font/googlesans/GoogleSans-Regular.ttf") format("truetype");
+  font-weight: 400; }
+
+@font-face {
+  font-family: "GoogleSans";
+  src: local(GoogleSans Medium), url("./../font/googlesans/GoogleSans-Medium.eot");
+  src: url("./../font/googlesans/GoogleSans-Medium.eot?#iefix") format("embedded-opentype"),
+       url("./../font/googlesans/GoogleSans-Medium.woff2") format("woff2"),
+       url("./../font/googlesans/GoogleSans-Medium.woff") format("woff"),
+       url("./../font/googlesans/GoogleSans-Medium.ttf") format("truetype");
+  font-weight: 500; }
+
+@font-face {
+  font-family: "GoogleSans";
+  src: local(GoogleSans Bold), url("./../font/googlesans/GoogleSans-Bold.eot");
+  src: url("./../font/googlesans/GoogleSans-Bold.eot?#iefix") format("embedded-opentype"),
+       url("./../font/googlesans/GoogleSans-Bold.woff2") format("woff2"),
+       url("./../font/googlesans/GoogleSans-Bold.woff") format("woff"),
+       url("./../font/googlesans/GoogleSans-Bold.ttf") format("truetype");
+  font-weight: 600; }
+
+/* ========================================================================================================================= */
+
+@font-face {
+  font-family: "Raleway";
+  src: local(Raleway Thin), url("./../font/raleway/Raleway-Thin.eot");
+  src: url("./../font/raleway/Raleway-Thin.eot?#iefix") format("embedded-opentype"),
+       url("./../font/raleway/Raleway-Thin.woff2") format("woff2"),
+       url("./../font/raleway/Raleway-Thin.woff") format("woff"),
+       url("./../font/raleway/Raleway-Thin.ttf") format("truetype");
+  font-weight: 200; }
+
+@font-face {
+  font-family: "Raleway";
+  src: local(Raleway Light), url("./../font/raleway/Raleway-Light.eot");
+  src: url("./../font/raleway/Raleway-Light.eot?#iefix") format("embedded-opentype"),
+      url("./../font/raleway/Raleway-Light.woff2") format("woff2"),
+      url("./../font/raleway/Raleway-Light.woff") format("woff"),
+      url("./../font/raleway/Raleway-Light.ttf") format("truetype");
+  font-weight: 300; }
+
+@font-face {
+  font-family: "Raleway";
+  src: local(Raleway Regular), url("./../font/raleway/Raleway-Regular.eot");
+  src: url("./../font/raleway/Raleway-Regular.eot?#iefix") format("embedded-opentype"),
+      url("./../font/raleway/Raleway-Regular.woff2") format("woff2"),
+      url("./../font/raleway/Raleway-Regular.woff") format("woff"),
+      url("./../font/raleway/Raleway-Regular.ttf") format("truetype");
+  font-weight: 400; }
+
+@font-face {
+  font-family: "Raleway";
+  src: local(Raleway Medium), url("./../font/raleway/Raleway-Medium.eot");
+  src: url("./../font/raleway/Raleway-Medium.eot?#iefix") format("embedded-opentype"),
+      url("./../font/raleway/Raleway-Medium.woff2") format("woff2"),
+      url("./../font/raleway/Raleway-Medium.woff") format("woff"),
+      url("./../font/raleway/Raleway-Medium.ttf") format("truetype");
+  font-weight: 500; }
+
+@font-face {
+  font-family: "Raleway";
+  src: local(Raleway SemiBold), url("./../font/raleway/Raleway-SemiBold.eot");
+  src: url("./../font/raleway/Raleway-SemiBold.eot?#iefix") format("embedded-opentype"),
+      url("./../font/raleway/Raleway-SemiBold.woff2") format("woff2"),
+      url("./../font/raleway/Raleway-SemiBold.woff") format("woff"),
+      url("./../font/raleway/Raleway-SemiBold.ttf") format("truetype");
+  font-weight: 600; }
+
+@font-face {
+  font-family: "Raleway";
+  src: local(Raleway Bold), url("./../font/raleway/Raleway-Bold.eot");
+  src: url("./../font/raleway/Raleway-Bold.eot?#iefix") format("embedded-opentype"),
+      url("./../font/raleway/Raleway-Bold.woff2") format("woff2"),
+      url("./../font/raleway/Raleway-Bold.woff") format("woff"),
+      url("./../font/raleway/Raleway-Bold.ttf") format("truetype");
+  font-weight: 700; }
+
+/* Icons */
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./../my_icons/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url(./../my_icons/MaterialIcons-Regular.woff2) format('woff2'),
+    url(./../my_icons/MaterialIcons-Regular.woff) format('woff'),
+    url(./../my_icons/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}

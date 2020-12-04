@@ -1,0 +1,83 @@
+<?php
+  foreach ($form_array as $key => $value) {
+    if ($value != 'request_ID') {
+      if ($value != 'request_description') {
+        echo "<div class='form-group'>
+                <input type='text' class='form-control' id='$value' readonly>
+              </div>";
+      } else {
+        echo "<div class='form-group'>
+                <textarea class='form-control' rows='5' type='text' id='$value' readonly></textarea>
+              </div>";
+      }
+    } else {
+      echo "<input name='$value' type='hidden' value=''>";
+    }
+  }
+?>
+
+
+<div class="form-row">
+  <div class="col">
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="basic-addon1">Name</span>
+      </div>
+      <input type="text" class="form-control" placeholder="Full Name" id='request_name'>
+    </div>
+  </div>
+  <div class="col-7">
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="basic-addon1">Office</i></span>
+      </div>
+      <input type="text" class="form-control" placeholder="Full Name" id='request_component_'>
+    </div>
+  </div>
+</div>
+<div class="form-row">
+  <div class="col">
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="basic-addon1">..eMail</i></span>
+      </div>
+      <input type="text" class="form-control" placeholder="Full Name" id='request_email'>
+    </div>
+  </div>
+  <div class="col">
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="basic-addon1">Mobile</i></i></span>
+      </div>
+      <input type="text" class="form-control" placeholder="Full Name" id='request_contact_number'>
+    </div>
+  </div>
+</div>
+<div class="form-row">
+  <div class="col">
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text float-right" id="basic-addon1">Brand</i></span>
+      </div>
+      <input type="text" class="form-control" placeholder="Full Name" id='request_brand_'>
+    </div>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="basic-addon1">Category</i></i></span>
+      </div>
+      <input type="text" class="form-control" placeholder="Full Name" id='request_category_'>
+    </div>
+  </div>
+  <div class="col-7">
+    <div class='form-group'>
+      <textarea class='form-control' rows='5' type='text' readonly></textarea>
+    </div>
+  </div>
+</div>
+
+// function randomise() {
+//   var myElectives = ['Fishing', 'Playground', 'Bike Riding', 'Underwater Basket Weaving', 'Playing with the Teacher', 'Silent Reading', 'Going to the Library'];
+//   var lastItem = myElectives.Length - 1;
+//   var elective = myElectives[Math.floor(Math.random() * myElectives.length)];
+//   alert(elective);
+// }
